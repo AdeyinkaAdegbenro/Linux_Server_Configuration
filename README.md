@@ -1,8 +1,9 @@
+<h2>Login Information</h2>
 i. Ip Address: 18.196.173.223
 ii. SSH Port: 2200
 iii. Complete url to Hosted Application: http://18.196.173.223.xip.io
 
-Summary of Software Installed
+<h2>Summary of Software Installed</h2>
 1. update the package list
     sudo apt-get update
 2. Get upgrade of packages
@@ -80,6 +81,7 @@ Summary of Software Installed
     `touch .ssh/authorized_keys`
     `sudo nano .ssh/authorized_keys`
     Paste public key in it
+    <h2>Third Party Resource</h2>
 23. Third party resource used during this project include
     https://modwsgi.readthedocs.io/en/develop/user-guides/quick-configuration-guide.html
     https://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/
